@@ -1,0 +1,64 @@
+.form {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 15px;
+
+  .hide {
+    display: none;
+  }
+
+  &-control {
+    height: 60px;
+  }
+
+  .input-icon {
+    position: absolute;
+    z-index: 9;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    color: rgba(108, 112, 126, 0.8);
+    font-size: 20px;
+  }
+
+  .search-text,
+  .search-room {
+    padding: 0 15px 0 50px;
+  }
+
+  .search-room {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+
+    p {
+      padding: 0;
+      margin: 0;
+    }
+
+    &__discription {
+      color: gray;
+    }
+  }
+
+  .date-picker {
+    flex-direction: row;
+    padding: 0 12px;
+
+    .col-auto {
+      width: 50%;
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  .btn-search {
+    height: 60px;
+    width: 100%;
+
+    background-color: orange;
+    color: white;
+    font-weight: 700;
+  }
+}

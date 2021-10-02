@@ -1,0 +1,141 @@
+
+/* ============================= main-content ======================== */
+.main-content {
+  .heading {
+    margin-top: 70px;
+
+    &:first-child {
+      margin-top: 30px;
+    }
+
+    &__title {
+      font-size: 36px;
+      font-weight: 700;
+      color: #000;
+      margin: 0;
+    }
+
+    &__discription {
+      font-size: 18px;
+      color: #333;
+      font-weight: 400;
+    }
+  }
+
+  .safe-travel .col {
+    padding: 0 7px;
+  }
+  
+  .foreign-travel .col-8,
+  .foreign-travel .col-4,
+  .vietnam-travel .col-8,
+  .vietnam-travel .col-4,
+  .p-0-5 {
+    padding: 0 5px;
+  }
+
+  .p-0-7 {
+    padding: 0 7px;
+  }
+  
+  .card {
+    height: 360px;
+    color: white;
+    background-size: cover;
+    border: none;
+    
+    &--romance {
+      background-image: url('../../assets/images/lang-man.jpg');
+    }
+
+    &--safe {
+      background-image: url('../../assets/images/an-toan.jpg');
+    }
+
+    &--positive {
+      background-image: url('../../assets/images/tich-cuc.jpg');
+    }
+
+    &--gift {
+      background-image: url('../../assets/images/gift-voucher.jpg');
+    }
+
+    &--phu-quoc {
+      background-image: url('../../assets/images/phu-quoc.jpg');
+    }
+
+    &--sapa {
+      background-image: url('../../assets/images/sapa.jpg');
+    }
+
+    &--hoa-binh {
+      background-image: url('../../assets/images/hoa-binh.jpg');
+    }
+
+    &--nha-trang {
+      background-image: url('../../assets/images/nha-trang.jpg');
+    }
+
+    &--vung-tau {
+      background-image: url('../../assets/images/vung-tau.jpg');
+    }
+
+    &--ha-long {
+      background-image: url('../../assets/images/vinh-ha-long.jpg');
+    }
+
+    &--ninh-binh {
+      background-image: url('../../assets/images/ninh-binh.jpg');
+    }
+
+    &--thanh-hoa {
+      background-image: url('../../assets/images/thanh-hoa.jpg');
+    }
+
+    &--portugal {
+      background-image: url('../../assets/images/portugal.jpg');
+    }
+
+    &--spain {
+      background-image: url('../../assets/images/spain.jpg');
+    }
+
+    &--italy {
+      background-image: url('../../assets/images/italy.jpg');
+    }
+
+    &--switzerland {
+      background-image: url('../../assets/images/switzerland.jpg');
+    }
+
+    &--greece {
+      background-image: url('../../assets/images/greece.jpg');
+    }
+
+    &-body {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      display: inline-block;
+    }
+
+    &-title {
+      font-size: 30px;
+      font-weight: 700;
+    }
+
+    &-text {
+      font-size: 16px;
+      font-weight: 400;
+
+      a {
+        color: white;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .carousel-item img {
+    border-radius: 10px;
+  }
+}
