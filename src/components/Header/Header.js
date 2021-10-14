@@ -22,7 +22,7 @@ const Header = () => {
     <nav className="top-nav">
       <div className="container">
         <div className="row justify-content-between">
-          <div className="col-auto no-padding">
+          <div className="col-auto">
             <a href="/">
               <img src={logo} alt="logo" className="top-nav__logo" />
             </a>
@@ -46,7 +46,7 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          <div className="col-auto no-padding">
+          <div className="col-auto">
             <div
               className="top-nav__account btn no-padding"
               onClick={handleShowMenuAccount}
@@ -69,9 +69,14 @@ const Header = () => {
             >
               <RiArrowUpSFill className="arrow-up" />
 
-              <button className="btn mb-3 btn-login">Đăng nhập</button>
+              <a href="/dang-nhap">
+                <button className="btn mb-3 btn-login">
+                  Đăng nhập
+                </button>
+              </a>
+              
               <p>
-                Chưa có tài khoản? <a href="/#">Đăng ký</a> ngay
+                Chưa có tài khoản? <a href="/dang-ky">Đăng ký</a> ngay
               </p>
             </div>
 

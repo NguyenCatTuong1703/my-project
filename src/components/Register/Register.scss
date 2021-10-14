@@ -1,0 +1,32 @@
+.register {
+  width: 50%;
+  min-width: 350px;
+  padding: 30px 50px;
+  margin: auto;
+
+  &__heading {
+    text-align: center;
+  }
+
+  .form-control {
+    height: 40px;
+  }
+
+  label::selection {
+    background-color: transparent;
+  }
+
+  .btn {
+    width: 100%;
+
+    &:focus {
+      box-shadow: none;
+    }
+  }
+
+  .error {
+    color: red;
+    font-style: italic;
+    font-size: 14px;
+  }
+}
